@@ -99,13 +99,9 @@
 		6E6210F91FFBC6C200456518 /* Doctor.Li */ = {
 			isa = PBXGroup;
 			children = (
+				6E62112B1FFBCD6E00456518 /* Resources */,
 				6E6210FA1FFBC6C200456518 /* AppDelegate.swift */,
 				6E6210FC1FFBC6C200456518 /* ViewController.swift */,
-				6E6210FE1FFBC6C200456518 /* Main.storyboard */,
-				6E6211041FFBC6C200456518 /* Assets.xcassets */,
-				6E6211061FFBC6C200456518 /* LaunchScreen.storyboard */,
-				6E6211091FFBC6C200456518 /* Info.plist */,
-				6E6211011FFBC6C200456518 /* Doctor_Li.xcdatamodeld */,
 			);
 			path = Doctor.Li;
 			sourceTree = "<group>";
@@ -126,6 +122,26 @@
 				6E62111F1FFBC6C200456518 /* Info.plist */,
 			);
 			path = Doctor.LiUITests;
+			sourceTree = "<group>";
+		};
+		6E62112B1FFBCD6E00456518 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E62112C1FFBCD9900456518 /* Plist */,
+				6E6211041FFBC6C200456518 /* Assets.xcassets */,
+				6E6210FE1FFBC6C200456518 /* Main.storyboard */,
+				6E6211061FFBC6C200456518 /* LaunchScreen.storyboard */,
+				6E6211011FFBC6C200456518 /* Doctor_Li.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E62112C1FFBCD9900456518 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				6E6211091FFBC6C200456518 /* Info.plist */,
+			);
+			path = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8A7UDA9UN;
-				INFOPLIST_FILE = Doctor.Li/Info.plist;
+				INFOPLIST_FILE = Doctor.Li/Resources/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.isunxu.Doctor-Li";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8A7UDA9UN;
-				INFOPLIST_FILE = Doctor.Li/Info.plist;
+				INFOPLIST_FILE = Doctor.Li/Resources/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.isunxu.Doctor-Li";
 				PRODUCT_NAME = "$(TARGET_NAME)";
