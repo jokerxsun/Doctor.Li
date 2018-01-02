@@ -1,7 +1,7 @@
 # Doctor.Li
 ## 语言
 Swift
-## 技术难点
+## 技术
 1. ORC 扫描
 2. iOS 平台生成 Excel 文件，并分享打印  
 
